@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	padding: 4em;
+	font-family: "Segoe UI"
+}
+
+h2, p {
+	text-align: center;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+}
+
+.blink {
+	-webkit-animation: blink .5s ease-in-out alternate infinite;
+}
+
+@-webkit-keyframes blink {
+	from { color: rgba(0,0,0,.2) }
+	to 	 { color: rgba(0,0,0,1)  }
+}
